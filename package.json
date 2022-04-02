@@ -1,0 +1,19 @@
+{
+  "name": "mysql-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "dev":"nodemon index.js",
+      "start":"node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "express": "^4.17.3",
+    "express-rate-limit": "^6.3.0",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3"
+  }
+}
